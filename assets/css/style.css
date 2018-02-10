@@ -315,7 +315,7 @@ h3{
     font-size: 20px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 980px) {
 
     header{
         font-family: 'Georgia', Times, Times New Roman, serif;
@@ -333,7 +333,7 @@ h3{
         width: 250px;
         height: 85px;
         Position: Fixed;
-            left: 250px;
+            left: 75px;
             top: -20px;
         text-align: center;
         line-height: 85px;
@@ -373,7 +373,7 @@ h3{
         list-style-type: none;
         float: right;
         position: fixed;
-        right: 200px;
+        right: 100px;
         text-align: center;
         line-height: 100px;
         color: grey;
@@ -390,7 +390,7 @@ h3{
         border: solid;
         border-color: rgb(255, 185, 197);
         position: Fixed;
-            right: 180px;
+            right: 30px;
             bottom: 395px;
         text-align: center;    
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -399,17 +399,18 @@ h3{
     .maincontent {
         clear: both;
         float: left;
-        width: 650px;
+        width: 550px;
         height: 400px;
         background-color: pink;
         position: relative;
-            left: 200px;
+            left: 30px;
         margin: 40px;
         z-index: 2;
         text-align: center;
         padding: 10px;
         border: solid;
         border-color: rgb(255, 185, 197);
+        font-size: 12px;
     }
     
     h2{
@@ -447,7 +448,185 @@ h3{
         position: relative;
         top: 25px;
     }
-}
+        
+        .form {
+            float: left;
+            text-align: left;
+            margin: 30px;
+            position: absolute;
+            top: 15%;
+            font-size: 18px;
+            line-height: 20px;
+            color: teal;
+        }
+    
+        #comment{
+            width: 475px;
+            height: 150px;
+        }
+        
+        #name,
+        #mail {
+            width: 475px;
+            height: 20px;
+        }
+        
+        #contact {
+            font-size: 30px;
+            color: teal;
+            position: absolute;
+            top: -30%;
+            text-align: left;
+            width: 475px;
+            border-bottom: solid;
+            border-color: teal;
+            padding-bottom: 15px;
+            font-family: 'Georgia', Times, Times, serif;
+        }
+            .pmaincontent {
+                clear: both;
+                float: left;
+                width: 550px;
+                height: 725px;
+                background-color: pink;
+                position: relative;
+                    left: 0px;
+                margin: 40px;
+                z-index: 2;
+                text-align: center;
+                padding: 10px;
+                border: solid;
+                border-color: rgb(255, 185, 197);
+    
+            }
+              
+            #tech {
+                Float: left;
+                margin-top: 35px;
+                margin-bottom: 35px;
+                margin-left: 40px;
+                width: 200px;
+                height: 200px;
+                
+            }    
+            
+            #tech2 {
+                Float: right;
+                margin-top: 35px;
+                margin-bottom: 35px;
+                margin-right: 40px;
+                width: 200px;
+                height: 200px;
+            }
+            
+            #tech3 {
+                Float: left;
+                margin-bottom: 35px;
+                margin-left: 40px;
+                width: 200px;
+                height: 200px;
+            }
+            
+            #tech4 {
+                Float: right;
+                margin-bottom: 35px;
+                margin-right: 40px;
+                width: 200px;
+                height: 200px;
+            }
+            
+            #tech5 {
+                Float: left;
+                margin-bottom: 35px;
+                margin-left: 40px;
+                width: 200px;
+                height: 200px;
+            }
+            
+            .pmain {
+                    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+                    color: white;
+                    position: absolute;
+                    margin-top: 50px;
+                    margin-bottom: 50px;
+                    background-color:rgb(207, 205, 205);
+                    text-align: center;
+                    width: 100%;
+                    height: 850px;
+                    
+            }
+            
+            #text {
+                background-color: teal;
+                width: 225px;
+                height: 50px;
+                text-align: center;
+                z-index: 10;
+                position: absolute;
+                top: 150px;
+                left: 35px;
+                color: white;
+                line-height: 50px;
+                font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+            }
+            
+            #text2 {
+                background-color: teal;
+                width: 225px;
+                height: 50px;
+                text-align: center;
+                z-index: 10;
+                position: absolute;
+                top: 150px;
+                left: 307px;
+                color: white;
+                line-height: 50px;
+                font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+            
+            }
+            
+            #text3 {  
+                background-color: teal;
+                width: 225px;
+                height: 50px;
+                text-align: center;
+                z-index: 10;
+                position: absolute;
+                left: 35px;
+                top: 390px;
+                color: white;
+                line-height: 50px;
+                font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+            }
+            
+            #text4{
+                background-color: teal;
+                width: 225px;
+                height: 50px;
+                text-align: center;
+                z-index: 10;
+                position: absolute;
+                left: 307px;
+                top: 390px;
+                color: white;
+                line-height: 50px;
+                font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+            }
+            
+            #text5 {
+                background-color: teal;
+                width: 225px;
+                height: 50px;
+                text-align: center;
+                z-index: 10;
+                position: absolute;
+                top: 620px;
+                left: 35px;
+                color: white;
+                line-height: 50px;
+                font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+            }
+        }
 
 @media screen and (max-width: 768px) {
 
